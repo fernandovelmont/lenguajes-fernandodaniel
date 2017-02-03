@@ -9,6 +9,6 @@ package patos;
  *
  * @author Fernandodaniel
  */
-public class PatoMexicano {
+public class PatoMexicano extends Pato{
      public  static final String color="Blanco";
 }

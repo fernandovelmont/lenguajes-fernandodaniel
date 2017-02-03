@@ -9,8 +9,10 @@ package patos;
  *
  * @author Fernandodaniel
  */
-public class PatoCanadiense {
+public class PatoCanadiense extends Pato{
+    
     public  static final String color="cafe";//static compartido 
     //final por que el color no va a cambiar
+    
     
 }

@@ -9,7 +9,8 @@ package patos;
  *
  * @author Fernandodaniel
  */
-public class PatoEuropeo extends Pato {
- 
-     public  static final String color="negro";
+public class Pato {
+    public void comer(){
+        System.out.println("Como moscos");
+    }
 }
