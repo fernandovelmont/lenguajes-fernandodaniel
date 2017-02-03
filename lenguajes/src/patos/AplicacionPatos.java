@@ -14,14 +14,18 @@ public class AplicacionPatos {
         PatoCanadiense pc1=new PatoCanadiense();
         PatoCanadiense pc2=new PatoCanadiense();
        System.out.println(PatoCanadiense.color);
+       pc1.comer();
+     
        
        PatoEuropeo  pe1=new PatoEuropeo();
        PatoEuropeo  pe2=new PatoEuropeo();
        System.out.println(PatoEuropeo.color);
+       pe1.comer();
        
        PatoMexicano  pm1=new PatoMexicano();
        PatoMexicano  pm2=new PatoMexicano();
        System.out.println(PatoMexicano.color);
        
+       pm1.comer();
     }
 }

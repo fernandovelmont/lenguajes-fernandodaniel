@@ -9,10 +9,12 @@ package patos;
  *
  * @author Fernandodaniel
  */
-public class PatoCanadiense extends Pato{
+public class PatoCanadiense extends Pato implements ComportamientoVolar{
     
     public  static final String color="cafe";//static compartido 
     //final por que el color no va a cambiar
     
-    
+    public void volar(){
+        System.out.println("Soy pato canadiense y vuelo");
+    }
 }
