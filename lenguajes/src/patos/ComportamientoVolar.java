@@ -11,7 +11,7 @@ package patos;
  */
 public interface ComportamientoVolar {
     
-    public void volar();//metodo abstracto sin llaves
+    public void volar();
     
     
 }
