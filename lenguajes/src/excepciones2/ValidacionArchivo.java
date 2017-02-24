@@ -26,6 +26,12 @@ public class ValidacionArchivo {
   }
     public static void ValidarMayusculas(File file)throws MayusculasExcepcion{
         String nombre=file.getName();
-        //usar touppr Case()o tolower case()
+        int indice1=nombre.indexOf(".");
+        String name=nombre.substring(0,indice1);
+        String mayusculas=name.toUpperCase();
+        if(name.equals(mayusculas))throw new MayusculasExcepcion();
+        
+//usar touppr Case()o tolower case()
+        
     }
 }
