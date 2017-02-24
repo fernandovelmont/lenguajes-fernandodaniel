@@ -24,6 +24,7 @@ public class ModeloLector {
             while((ch=fis.read())!=-1){ 
                 builder.append((char)ch); //append es agregar otro bloque para que se construya el archivo,casting para cambiar el tipo de dato
             }
+            String nada= null;
             informacion=builder.toString();
             return informacion;
         }
