@@ -40,4 +40,5 @@ public class Nomina {
         this.saldo = saldo;
     }
     
+
 }
